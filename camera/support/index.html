@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>技术支持 · 子不语照相馆</title>
-<meta name="description" content="子不语照相馆技术支持：拍摄与保存、iCloud 备份、AI 云暗房说明、权限说明与问题反馈。">
+<meta name="description" content="子不语照相馆技术支持：拍摄与保存、iCloud 备份、权限说明与问题反馈。">
 <link rel="stylesheet" href="../../assets/style.css">
 </head>
 <body>
@@ -22,7 +22,7 @@
   <p class="meta-date">适用于 iOS 版「子不语照相馆」</p>
 
   <div class="box promise">
-    <span class="box-title">三句话了解它：</span>一柜子玩味胶片相机加一个图文创作编辑器；照片只存进你自己的相册；AI 用你自己的钥匙，点一下才联网。
+    <span class="box-title">三句话了解它：</span>一柜子玩味胶片相机加一个图文创作编辑器；照片只存进你自己的相册；iCloud 备份默认关闭，开了也只进你本人的 iCloud。
   </div>
 
   <h2>快速上手</h2>
@@ -39,9 +39,6 @@
   <h2>关于 iCloud 备份</h2>
   <p>备份在「馆志 → 存储与维护 → iCloud 备份」中<strong>手动开启</strong>，默认关闭。开启后，所选创作资料只写入<strong>你本人的</strong> iCloud 私有数据库（由 Apple 运营并加密），开发者与任何第三方都无法读取；换机或重装后可一键恢复。不开启时，所有数据仅保存在本机。</p>
 
-  <h2>AI 云暗房如何工作</h2>
-  <p>起名馆、AI 锻造相机包与模板、照片背面手记等 AI 功能按<strong>你自己的配置</strong>工作：在应用内填入你自己的模型服务与密钥——云端服务（DeepSeek、Kimi、智谱、MiniMax、阿里百炼、MiMo 等）或你局域网内的本地模型（Ollama、LM Studio）均可。请求由设备<strong>直接</strong>发往你填写的地址，一般只发送完成任务所需的文字，仅看图类功能才附带照片；密钥只存本机钥匙串。不配置也完全不影响拍摄与创作。</p>
-
   <h2>常见问题</h2>
 
   <h3>我的照片存在哪？会上传吗？</h3>
@@ -50,14 +47,8 @@
   <h3>换新手机怎么迁移？</h3>
   <p>照片与视频跟着你自己的 iCloud 照片或整机备份走；应用内的模板、草稿等创作资料，在旧机上开启「馆志 → 存储与维护 → iCloud 备份」，新机恢复即可。</p>
 
-  <h3>AI 功能要花钱吗？</h3>
-  <p>App 本身不收 AI 功能的费用。用你自己的模型服务时，用量与费用由该服务商结算；局域网本地模型（Ollama、LM Studio）不产生云端费用，但需要你自己在电脑上运行。</p>
-
   <h3>麦克风和定位可以关吗？</h3>
   <p>可以，系统设置中随时收回。录制视频时不打开录音开关就不会使用麦克风；定位仅用于展示照片地点，不用可以拒绝。</p>
-
-  <h3>为什么要本地网络权限？</h3>
-  <p>只用于连接你局域网内的本地大模型服务（如 Ollama、LM Studio），请求只发往你填写的地址。不用本地模型的话，可以直接拒绝该权限，云端 AI 与其他功能不受影响。</p>
 
   <h2>问题反馈</h2>
   <p>遇到问题或有建议，欢迎到 <a href="https://github.com/Miaolegemi9527/zibuyuweb/issues/new?labels=camera" target="_blank" rel="noopener">GitHub Issues</a> 提交（需免费注册的 GitHub 账号）。</p>
