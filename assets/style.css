@@ -177,6 +177,14 @@ strong { font-weight: 650; }
 
 .card .card-desc { color: var(--muted); font-size: 14.5px; line-height: 1.7; }
 
+.card .card-links {
+  margin-top: 12px;
+  font-size: 14.5px;
+}
+
+.card .card-links a { color: #8ab4ff; text-decoration: none; }
+.card .card-links a:hover { text-decoration: underline; }
+
 .hero {
   margin-top: 44px;
 }
